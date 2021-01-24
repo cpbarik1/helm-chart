@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: cpbarik
-        image: cpbarik1/jenkin-ansible-kubernetes
+        image: cpbarik1/jenkin-docker-helm-kubernetes
         imagePullPolicy: Always
         ports:
         - containerPort: 80
